@@ -5,4 +5,36 @@ html, body {
 
 section {
     margin-top: 10px;
+    background-color: aqua; 
 }
+
+.task-one::before{
+
+    content:"Once upon a time....";
+    background-color: blueviolet;
+}
+
+.task-one::after{
+
+    content: "...The end.";
+    background-color: blueviolet;
+}
+
+.task-two{
+    background-image: url(/assets/beach.jpg);
+    clip-path: polygon(20% 0%, 40% 50%, 20% 100%, 0% 50%);
+    height: 428px;
+    width: 1400px;
+
+}
+
+.task-three{
+
+    background-image: url(/assets/smiley.jpg);
+    padding: 24%;
+    width: 0%;
+    transform: rotateX(180deg);
+    
+}
+
+
